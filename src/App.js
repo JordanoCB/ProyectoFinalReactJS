@@ -3,7 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Header from './components/common/Header';
 import Homepage from './pages/homepage/Homepage';
 import PokemonContextProvider from './contexts/PokemonContexts';
-import Pkm from './pages/pokemon';
+import Pkm from './pages/pokemon/index';
 import NoResults from './components/common/NoResults';
 import Footer from './components/common/Footer';
 

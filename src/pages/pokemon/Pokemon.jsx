@@ -14,7 +14,7 @@ const Pokemon = ({ text, pokemon }) => (
                             id,
                             name,
                             sprites
-                        } = pokemon.pokemon;
+                        } = pokemon;
                         return(
                             <PokemonDetails
                             key = { id }
